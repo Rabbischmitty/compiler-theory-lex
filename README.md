@@ -14,5 +14,4 @@ We were given a skeleton file that demonstrated basic syntax in Bison and C++, a
 ### Special Notes
 - If you are modifying any of the files, you must run `make` to compile your new changes
 - If you are modifying the `scanner.l` you must modify the `tokens.h` to recognize the new token.
-- When modifying C++ files you must modify the corresponding header file
 - Included test cases can be accessed via the **tests** folder in the repo
