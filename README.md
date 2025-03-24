@@ -11,6 +11,21 @@ We were given a skeleton file that demonstrated basic syntax in Bison and C++, a
 - Navigate to the directory with the source files and use `make` to compile the project
 - Utilize the following syntax to run the program `./compile < test1.txt`
 
+## Features Added
+- Added reserved words for `else, elsif, endfold, endif, fold, if, left, real, right, then`
+- Added all functionality for logical operators for `!` and `|`
+- Added all functionality for relational operators `=`, `<>`, `>`, `>=`, and `<=`
+- Added lexemes for `-` and `/`
+- Added all functionality for modulus operator `%`
+- Added all functionality for exponent operator `^`
+- Added all functionality for unary minus operator `~`
+- Added recognition of additional comments using `--`
+- Allowed for underscores to be recognized
+- Restricted underscores to no more than two consecutive underscores with no leading or trailing underscores
+- Added all functionality for hexadecimal values
+- Added all functionality for real values
+- Added recognition for escape characters `\b`, `\t`, `\n`, `\r` and`\f`
+
 ### Special Notes
 - If you are modifying any of the files, you must run `make` to compile your new changes
 - If you are modifying the `scanner.l` you must modify the `tokens.h` to recognize the new token.
