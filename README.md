@@ -1,6 +1,8 @@
 # Compiler Theory Lexical Analyzer
 Contains a school project to create a lexical analyzer using flex, bison, C++, and make. The aim of the course was to explore what actions the compiler takes during its various phases.
 
+We were given a skeleton file that demonstrated basic syntax in Bison and C++, and asked to add additional basic features to include recognition of hex and real values.
+
 ## Requirements
 - Your favorite Linux distribution (I recommend Ubuntu for this project)
 - Use `apt` or `yum` to get the packages for Flex, Bison, Make, and G++ (Use `sudo` to avoid permission issues)
@@ -11,5 +13,6 @@ Contains a school project to create a lexical analyzer using flex, bison, C++, a
 
 ### Special Notes
 - If you are modifying any of the files, you must run `make` to compile your new changes
+- If you are modifying the `scanner.l` you must modify the `tokens.h` to recognize the new token.
 - When modifying C++ files you must modify the corresponding header file
 - Included test cases can be accessed via the **tests** folder in the repo
